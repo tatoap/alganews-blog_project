@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3002",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3002",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,7 +22,7 @@
     "react-syntax-highlighter": "^15.5.0",
     "remark-gfm": "^3.0.1",
     "styled-components": "^5.3.5",
-    "tato_ap-sdk": "^2.9.0"
+    "tato_ap-sdk": "^3.2.0"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
